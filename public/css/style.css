@@ -1,12 +1,12 @@
 body {
-  padding: 5em;
+  padding: 3em 5em;
   background-color: #C8C1C6;
   font-family: Helvetica;
 }
 
 h1 {
   color: #21374F;
-  font-size: 40pxl
+  font-size: 40px;
 }
 
 h2 {
@@ -20,14 +20,27 @@ p {
 }
 
 #author {
+  margin-top: -1.5em;
   padding: 0 0 0 .2em;
   color: gray;
+  font-size: .85em;
+  padding-bottom: .5em;
   font-weight: bold;
+}
+
+#first {
+  margin: 0 auto;
+  width: 85%;
 }
 
 h1 span {
   color: #BF1A11;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+}
+
+.shapes {
+  text-align: center;
+  margin: 3em 0;
 }
 
 .base {
@@ -50,29 +63,6 @@ h1 span {
 
 .ellipse {
   width: 28em;
-}
-
-.arrow-up {
-  width: 36em;
-  height: 0;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
-  border-top: 300px solid orange;
-  border-bottom: 300px solid orange;
-  position: relative;
-}
-
-.blue {
-  width: 3em;
-  height: 3em;
-  background-color: blue;
-  position: absolute;
-  top: -1.5em;
-  right: 15em;
-}
-
-.top {
-  z-index: 1;
 }
 
 .col_left {
@@ -106,10 +96,6 @@ h1 span {
   background-color: none;
 }
 
-.shapes {
-  text-align: center;
-  margin: 3em 0;
-}
 
 footer p {
   display: inline-block;
